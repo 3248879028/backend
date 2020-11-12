@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#book_box{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(96, 96, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#book_box>div{
+    width: 95%;
+    height: 85%;
+    background-color: rgb(37, 37, 41);
+}
+#book_heard{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px white solid;
+}
+#book_heard>div:first-child{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#book_heard>div:first-child>div{
+    display: flex;
+}
+#book_heard>div:first-child>div>img{
+    width: 70px;
+    height: 50px;
+    margin-left: 30px;
+}
+#book_heard>div:first-child>div>div{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#book_heard>div:first-child>div>div>p{
+    color: white;
+}
+
+#book_heard>div:last-child{
+    width: 30%;
+    height: 50px;
+}
+#book_heard>div:last-child>div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+#book_heard>div:last-child>div>a{
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+#book_center{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+#book_center>ul{
+    width: 10%;
+    height: 100%;
+    list-style: none;
+    margin-top: 15px;
+    border-right: 1px solid white;
+}
+#book_center>div{
+    width: 88%;
+    height: 100%;
+}
+
+
+
+#book_center>ul>li{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+}
+#book_center>ul>li:hover{
+    background-color: green;
+}
+#book_center>div>form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#book_center>div>form>div:first-child{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+#book_center>div>form>div:first-child>div>p{
+    color: white;
+}
+#book_center>div>form>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    margin: 30px 0px 0 -300px;
+}
+#book_center>div>form>div:nth-of-type(2)>div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+#book_center>div>form>div:nth-of-type(2)>div>span{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    justify-content: flex-end;
+    color: white;
+
+}
+#book_center>div>form>div:nth-of-type(2)>div>input{
+    width: 200px;
+    height: 20px;
+}
+#book_center>div>form>input{
+    width: 100px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: white;
+}
